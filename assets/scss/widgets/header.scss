@@ -1,0 +1,41 @@
+.navbar{
+  background-color: $theme-dark;
+  padding: 10px 20px;
+  height: 100px;
+
+  @media screen and (max-width: 991px) {
+    height: auto;
+  }
+
+  .navbar-brand{
+    .logo-res{
+      width: 100px;
+      height: auto;
+    }
+  }
+  .collapse{
+    .navbar-nav{
+      .nav-item{
+        .nav-link{
+          text-decoration: none;
+          color: #ffffff !important;
+          display: inline-block;
+          padding: 10px 20px;
+          font-size: 15px;
+          font-weight: bold;
+
+          @media screen and (max-width: 991px) {
+            padding: 10px 0;
+          }
+
+        }
+      }
+    }
+  }
+}
+
+.about-section{
+  h1{
+    font-size: 72px;
+  }
+}
