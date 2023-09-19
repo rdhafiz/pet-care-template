@@ -51,5 +51,6 @@
     <!-- Scripts section start -->
     <?php include 'widgets/scripts.php'; ?>
     <!-- Scripts section end -->
+
 </body>
 </html>
