@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-expand-lg fw-bold" data-bs-theme="dark">
+<nav class="navbar navbar-expand-lg fw-bold fixed-top" data-bs-theme="dark">
     <div class="container">
         <a class="navbar-brand" href="javascript:void(0)">
             <img src="assets/images/logo.png" class="img-fluid logo-res" alt="logo">
