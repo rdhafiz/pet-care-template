@@ -1,0 +1,15 @@
+.service-2-section {
+  width: 100%;
+  height: auto;
+  background-color: $theme;
+
+  .h1{
+    font-size: 72px;
+
+    @media screen and (max-width: 600px) {
+      font-size: 35px;
+    }
+
+  }
+
+}

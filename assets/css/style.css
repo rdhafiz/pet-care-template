@@ -26,11 +26,9 @@
 }
 .navbar .collapse .navbar-nav .nav-item .nav-link {
   text-decoration: none;
-  color: #ffffff !important;
   display: inline-block;
   padding: 10px 20px;
   font-size: 15px;
-  font-weight: bold;
 }
 @media screen and (max-width: 991px) {
   .navbar .collapse .navbar-nav .nav-item .nav-link {
@@ -173,6 +171,26 @@
   .order-2-section .res-content .h1 {
     font-size: 35px;
   }
+}
+
+.service-2-section {
+  width: 100%;
+  height: auto;
+  background-color: #739ee3;
+}
+.service-2-section .h1 {
+  font-size: 72px;
+}
+@media screen and (max-width: 600px) {
+  .service-2-section .h1 {
+    font-size: 35px;
+  }
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: #343434;
 }
 
 /*# sourceMappingURL=style.css.map */
