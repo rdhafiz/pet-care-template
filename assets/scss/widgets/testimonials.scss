@@ -1,0 +1,31 @@
+.testimonial-section{
+  height: 100vh;
+  background-size: cover;
+  background-color: rgba($theme-secondary, .8);
+  background-blend-mode: darken, luminosity;
+  @media screen and (max-width: 591px) {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+  }
+  .item{
+    color: #ffffff;
+    text-align: center;
+    .desc{
+      font-size: 22px;
+      width: 50%;
+      margin: 0 auto;
+      @media screen and (max-width: 991px) {
+        font-size: 16px;
+        width: 80%;
+      }
+    }
+    .name{
+      font-size: 25px;
+      margin-top: 20px;
+      @media screen and (max-width: 591px) {
+        font-size: 18px;
+      }
+    }
+  }
+}
