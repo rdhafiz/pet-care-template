@@ -46,4 +46,7 @@
     <div class="right-img">
         <img src="./assets/images/about-shape-right.png" alt="">
     </div>
+    <div class="arrow-shape">
+        <img src="./assets/images/arrow.png" alt="">
+    </div>
 </section>
