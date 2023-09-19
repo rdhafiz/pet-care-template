@@ -1,0 +1,30 @@
+.order-2-section{
+  width: 100%;
+  background-color: $theme;
+
+  .res-content{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (max-width: 991px) {
+      height: 60vh;
+    }
+
+    @media screen and (max-width: 600px) {
+      height: 40vh;
+    }
+
+    .h1{
+      font-size: 72px;
+
+      @media screen and (max-width: 600px) {
+        font-size: 35px;
+      }
+
+    }
+
+  }
+
+}

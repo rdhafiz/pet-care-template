@@ -16,7 +16,7 @@
     <?php include 'widgets/banner.php'; ?>
     <!-- banner section end -->
 
-    <!-- banner section start -->
+    <!-- banner section start noyon -->
     <?php include 'widgets/about.php'; ?>
     <!-- banner section end -->
 
@@ -24,7 +24,7 @@
     <?php include 'widgets/services.php'; ?>
     <!-- banner section end -->
 
-    <!-- banner section start -->
+    <!-- banner section start noyon -->
     <?php include 'widgets/order.php'; ?>
     <!-- banner section end -->
 
@@ -32,15 +32,15 @@
     <?php include 'widgets/order-2.php'; ?>
     <!-- banner section end -->
 
-    <!-- banner section start -->
+    <!-- banner section start noyon -->
     <?php include 'widgets/pricing.php'; ?>
     <!-- banner section end -->
 
-    <!-- banner section start -->
+    <!-- banner section start  -->
     <?php include 'widgets/service-2.php'; ?>
     <!-- banner section end -->
 
-    <!-- banner section start -->
+    <!-- banner section start noyon -->
     <?php include 'widgets/testimonials.php'; ?>
     <!-- banner section end -->
 

@@ -1,6 +1,6 @@
 
 <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container-fluid">
+    <div class="container">
         <a class="navbar-brand" href="javascript:void(0)">
             <img src="assets/images/logo.png" class="img-fluid logo-res" alt="logo">
         </a>
