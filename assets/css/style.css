@@ -1,3 +1,19 @@
+.text-theme {
+  color: #5380c1;
+}
+
+.btn-theme {
+  padding: 10px 30px;
+  display: inline-block;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background-color: #edc315;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .navbar {
   background-color: #5380c1;
   padding: 10px 20px;
@@ -14,11 +30,9 @@
 }
 .navbar .collapse .navbar-nav .nav-item .nav-link {
   text-decoration: none;
-  color: #ffffff !important;
   display: inline-block;
   padding: 10px 20px;
   font-size: 15px;
-  font-weight: bold;
 }
 @media screen and (max-width: 991px) {
   .navbar .collapse .navbar-nav .nav-item .nav-link {
@@ -26,34 +40,313 @@
   }
 }
 
-.hero-section {
+.about-section h1 {
+  font-size: 72px;
+}
+
+.banner-section {
   width: 100%;
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
-  background-blend-mode: hue;
   position: relative;
 }
-.hero-section .layout {
+.banner-section .layout {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(83, 128, 193, 0.75);
+  background-color: rgba(83, 128, 193, 0.85);
   background-blend-mode: lighten;
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 99;
 }
-.hero-section .layout .h1 {
+.banner-section .layout .h1 {
   font-size: 72px;
+}
+@media screen and (max-width: 600px) {
+  .banner-section .layout .h1 {
+    font-size: 35px;
+  }
 }
 
-.about-section h1 {
+.service-section {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.service-section .shape-position {
+  position: absolute;
+  top: -25px;
+  left: 20px;
+}
+.service-section:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(237, 195, 21, 0.65);
+  background-blend-mode: darken, luminosity;
+}
+.service-section .layout {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+}
+.service-section .layout .h1 {
   font-size: 72px;
+}
+@media screen and (max-width: 600px) {
+  .service-section .layout .h1 {
+    font-size: 35px;
+  }
+}
+.service-section .layout .res-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 600px) {
+  .service-section .layout .res-box {
+    flex-wrap: wrap;
+  }
+}
+.service-section .layout .box-content {
+  margin: 0 20px;
+  width: 300px;
+  height: 300px;
+  border: 10px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-align: center;
+}
+@media screen and (max-width: 1199px) {
+  .service-section .layout .box-content {
+    margin: 0 10px;
+    width: 200px;
+    height: 200px;
+  }
+  .service-section .layout .box-content .h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .service-section .layout .box-content {
+    margin: 0 5px;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #ffffff;
+  }
+  .service-section .layout .box-content .h1 {
+    font-size: 20px;
+  }
+  .service-section .layout .box-content .h2 {
+    font-size: 15px;
+  }
+}
+
+.order-section {
+  width: 100%;
+  background-color: #5380c1;
+  position: relative;
+}
+.order-section .shape-1 {
+  position: absolute;
+  top: 50px;
+  left: 40px;
+}
+@media screen and (max-width: 600px) {
+  .order-section .shape-1 {
+    display: none;
+  }
+}
+.order-section .shape-1 .triShap-left {
+  transform: rotate(35deg);
+}
+.order-section .shape-2 {
+  position: absolute;
+  top: 50px;
+  right: 40px;
+}
+@media screen and (max-width: 600px) {
+  .order-section .shape-2 {
+    display: none;
+  }
+}
+.order-section .shape-3 {
+  position: absolute;
+  bottom: 50px;
+  left: 40px;
+}
+@media screen and (max-width: 600px) {
+  .order-section .shape-3 {
+    display: none;
+  }
+}
+.order-section .shape-4 {
+  position: absolute;
+  bottom: 50px;
+  right: 40px;
+}
+@media screen and (max-width: 600px) {
+  .order-section .shape-4 {
+    display: none;
+  }
+}
+.order-section .shape-4 .triShap-left {
+  transform: rotate(35deg);
+}
+.order-section .res-content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 991px) {
+  .order-section .res-content {
+    height: 60vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  .order-section .res-content {
+    height: 50vh;
+  }
+}
+.order-section .res-content .h1 {
+  font-size: 72px;
+}
+@media screen and (max-width: 600px) {
+  .order-section .res-content .h1 {
+    font-size: 35px;
+  }
+}
+
+.order-2-section {
+  width: 100%;
+  background-color: #739ee3;
+  position: relative;
+}
+.order-2-section .shape-1 {
+  position: absolute;
+  top: 50px;
+  left: 40px;
+}
+@media screen and (max-width: 600px) {
+  .order-2-section .shape-1 {
+    display: none;
+  }
+}
+.order-2-section .shape-1 .triShap-left {
+  transform: rotate(35deg);
+}
+.order-2-section .shape-2 {
+  position: absolute;
+  top: 50px;
+  right: 40px;
+}
+@media screen and (max-width: 600px) {
+  .order-2-section .shape-2 {
+    display: none;
+  }
+}
+.order-2-section .shape-3 {
+  position: absolute;
+  bottom: 50px;
+  left: 40px;
+}
+@media screen and (max-width: 600px) {
+  .order-2-section .shape-3 {
+    display: none;
+  }
+}
+.order-2-section .shape-4 {
+  position: absolute;
+  bottom: 50px;
+  right: 40px;
+}
+@media screen and (max-width: 600px) {
+  .order-2-section .shape-4 {
+    display: none;
+  }
+}
+.order-2-section .shape-4 .triShap-left {
+  transform: rotate(35deg);
+}
+.order-2-section .res-content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 991px) {
+  .order-2-section .res-content {
+    height: 60vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  .order-2-section .res-content {
+    height: 50vh;
+  }
+}
+.order-2-section .res-content .h1 {
+  font-size: 72px;
+}
+@media screen and (max-width: 600px) {
+  .order-2-section .res-content .h1 {
+    font-size: 35px;
+  }
+}
+
+.pricing {
+  width: 100%;
+  height: auto;
+  background-color: #739ee3;
+}
+.pricing .h1 {
+  font-size: 72px;
+}
+@media screen and (max-width: 600px) {
+  .pricing .h1 {
+    font-size: 35px;
+  }
+}
+
+.service-2-section {
+  width: 100%;
+  height: auto;
+  background-color: #739ee3;
+}
+.service-2-section .h1 {
+  font-size: 72px;
+}
+@media screen and (max-width: 600px) {
+  .service-2-section .h1 {
+    font-size: 35px;
+  }
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: #343434;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -16,40 +16,41 @@
     <?php include 'widgets/banner.php'; ?>
     <!-- banner section end -->
 
-    <!-- banner section start -->
+    <!-- about section start -->
     <?php include 'widgets/about.php'; ?>
-    <!-- banner section end -->
+    <!-- about section end -->
 
-    <!-- banner section start -->
+    <!-- services section start -->
     <?php include 'widgets/services.php'; ?>
-    <!-- banner section end -->
+    <!-- services section end -->
 
-    <!-- banner section start -->
+    <!-- order section start -->
     <?php include 'widgets/order.php'; ?>
-    <!-- banner section end -->
+    <!-- order section end -->
 
-    <!-- banner section start -->
+    <!-- order-2 section start -->
     <?php include 'widgets/order-2.php'; ?>
-    <!-- banner section end -->
+    <!-- order-2 section end -->
 
-    <!-- banner section start -->
+    <!-- pricing section start -->
     <?php include 'widgets/pricing.php'; ?>
-    <!-- banner section end -->
+    <!-- pricing section end -->
 
-    <!-- banner section start -->
+    <!-- service-2 section start -->
     <?php include 'widgets/service-2.php'; ?>
-    <!-- banner section end -->
+    <!-- service-2 section end -->
 
-    <!-- banner section start -->
+    <!-- testimonials section start -->
     <?php include 'widgets/testimonials.php'; ?>
-    <!-- banner section end -->
+    <!-- testimonials section end -->
 
-    <!-- banner section start -->
+    <!-- footer section start -->
     <?php include 'widgets/footer.php'; ?>
-    <!-- banner section end -->
+    <!-- footer section end -->
 
     <!-- Scripts section start -->
     <?php include 'widgets/scripts.php'; ?>
     <!-- Scripts section end -->
+
 </body>
 </html>
