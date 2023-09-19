@@ -5,14 +5,31 @@
   background-repeat: no-repeat;
   position: relative;
 
+  .shape-position{
+    position: absolute;
+    top: -25px;
+    left: 20px;
+  }
+
+  &:before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(237, 195, 21, 0.65);
+    background-blend-mode: darken, luminosity;
+  }
+
   .layout{
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(237, 195, 21, 0.85);
-    background-blend-mode: lighten;
     width: 100%;
     height: 100%;
     z-index:99;

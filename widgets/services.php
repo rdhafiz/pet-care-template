@@ -1,4 +1,7 @@
 <div class="service-section" style="background-image: url('assets/images/background-2.png');">
+    <div class="shape-position">
+        <img src="assets/images/Shape-dots.png" class="img-fluid" alt="shapes-dots">
+    </div>
     <div class="layout">
         <div class="h1 text-center text-white pt-3 pt-md-5 pb-3">Title Here</div>
         <div class="text-center text-white lead pb-2 pb-md-5">

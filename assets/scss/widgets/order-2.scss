@@ -1,6 +1,58 @@
 .order-2-section{
   width: 100%;
   background-color: $theme;
+  position: relative;
+
+  .shape-1{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+
+    @media screen and (max-width: 600px) {
+      display: none;
+    }
+
+    .triShap-left{
+      transform: rotate(35deg);
+    }
+
+  }
+
+  .shape-2{
+    position: absolute;
+    top: 50px;
+    right: 40px;
+
+    @media screen and (max-width: 600px) {
+      display: none;
+    }
+
+  }
+
+  .shape-3{
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+
+    @media screen and (max-width: 600px) {
+      display: none;
+    }
+
+  }
+
+  .shape-4{
+    position: absolute;
+    bottom: 50px;
+    right: 40px;
+
+    @media screen and (max-width: 600px) {
+      display: none;
+    }
+
+    .triShap-left{
+      transform: rotate(35deg);
+    }
+  }
 
   .res-content{
     height: 100vh;
@@ -13,7 +65,7 @@
     }
 
     @media screen and (max-width: 600px) {
-      height: 40vh;
+      height: 50vh;
     }
 
     .h1{

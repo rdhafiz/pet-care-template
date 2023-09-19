@@ -1,4 +1,16 @@
 <div class="order-2-section">
+    <div class="shape-1">
+        <img src="assets/images/triangle-shape.png" class="img-fluid triShap-left" alt="triangle-shape">
+    </div>
+    <div class="shape-2">
+        <img src="assets/images/Shape-dots.png" class="img-fluid" alt="dots-shape">
+    </div>
+    <div class="shape-3">
+        <img src="assets/images/triangle-shape.png" class="img-fluid triShap-right" alt="triangle-shape">
+    </div>
+    <div class="shape-4">
+        <img src="assets/images/Shape-dots.png" class="img-fluid" alt="dots-shape">
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-12 col-sm-12 col-md-6 res-content">

@@ -5,7 +5,7 @@
 
     <div class="container py-5">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2">
-            <div class="px-2 pb-4">
+            <div class="px-2 mb-4">
                 <div class="row">
                     <div class="col-3">
                         <img src="assets/images/pawprint.png" class="img-fluid" alt="pawprint">
@@ -18,7 +18,7 @@
                     </div>
                 </div>
             </div>
-            <div class="px-2 pb-4">
+            <div class="px-2 mb-4">
                 <div class="row">
                     <div class="col-3">
                         <img src="assets/images/pawprint.png" class="img-fluid" alt="pawprint">
@@ -31,7 +31,7 @@
                     </div>
                 </div>
             </div>
-            <div class="px-2 pb-4">
+            <div class="px-2 mb-4">
                 <div class="row">
                     <div class="col-3">
                         <img src="assets/images/pawprint.png" class="img-fluid" alt="pawprint">
@@ -44,7 +44,7 @@
                     </div>
                 </div>
             </div>
-            <div class="px-2 pb-4">
+            <div class="px-2 mb-4">
                 <div class="row">
                     <div class="col-3">
                         <img src="assets/images/pawprint.png" class="img-fluid" alt="pawprint">
