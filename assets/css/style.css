@@ -349,4 +349,53 @@
   background-color: #343434;
 }
 
+.about-section {
+  background-color: #739ee3;
+  padding: 80px 0;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.about-section .left-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.about-section .right-img {
+  position: absolute;
+  top: -37px;
+  right: 0;
+  z-index: -1;
+}
+.about-section .heading {
+  text-align: center;
+}
+.about-section .heading .title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.about-section .about-items {
+  margin-top: 40px;
+}
+.about-section .about-items .item .img img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+.about-section .about-items .item .title {
+  font-size: 20px;
+  margin: 15px 0;
+}
+.about-section .about-items .item .desc {
+  width: 50%;
+  margin: 0 auto;
+  line-height: 1.3;
+}
+@media screen and (max-width: 991px) {
+  .about-section .about-items .item .desc {
+    width: 80%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
