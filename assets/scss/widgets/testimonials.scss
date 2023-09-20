@@ -3,6 +3,8 @@
   background-size: cover;
   background-color: rgba($theme-secondary, .8);
   background-blend-mode: darken, luminosity;
+  position: relative;
+  z-index: 1;
   @media screen and (max-width: 591px) {
     background-size: contain;
     background-repeat: no-repeat;

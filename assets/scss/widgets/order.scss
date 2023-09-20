@@ -2,7 +2,12 @@
   width: 100%;
   background-color: $theme-dark;
   position: relative;
+  padding: 80px 0;
   z-index: 2;
+
+  @media screen and (max-width: 575px) {
+    padding: 80px 20px;
+  }
 
   .shape-1{
     position: absolute;
@@ -29,7 +34,7 @@
     }
 
     .dots-right{
-      transform: rotate(35deg);
+      transform: rotate(0);
     }
 
   }
@@ -65,28 +70,10 @@
   }
 
   .res-content{
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-
-    @media screen and (max-width: 991px) {
-      height: 60vh;
-    }
-
-    @media screen and (max-width: 600px) {
-      height: 50vh;
-    }
-
-    .h1{
-      font-size: 72px;
-
-      @media screen and (max-width: 600px) {
-        font-size: 35px;
-      }
-
-    }
-
+    padding: 30px 0;
   }
 
 }

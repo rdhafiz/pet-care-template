@@ -9,17 +9,17 @@
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio explicabo nemo officia repudiandae sint veniam.
                 </div>
                 <div class="d-flex justify-content-start align-items-center">
-                    <a href="javascript:void(0)" class="fs-5 me-2 btn btn-light rounded-circle">
-                        <i class="bi bi-instagram"></i>
+                    <a href="javascript:void(0)" class="me-3">
+                        <img src="assets/images/svg/instagram.svg" class="img-fluid" alt="">
                     </a>
-                    <a href="javascript:void(0)" class="fs-5 me-2 btn btn-light rounded-circle">
-                        <i class="bi bi-facebook"></i>
+                    <a href="javascript:void(0)" class="me-3">
+                        <img src="assets/images/svg/facebook.svg" class="img-fluid" alt="">
                     </a>
-                    <a href="javascript:void(0)" class="fs-5 me-2 btn btn-light rounded-circle">
-                        <i class="bi bi-twitter"></i>
+                    <a href="javascript:void(0)" class="me-3">
+                        <img src="assets/images/svg/twitter.svg" class="img-fluid" alt="">
                     </a>
-                    <a href="javascript:void(0)" class="fs-5 me-2 btn btn-light rounded-circle">
-                        <i class="bi bi-whatsapp"></i>
+                    <a href="javascript:void(0)" class="me-3">
+                        <img src="assets/images/svg/whatsapp.svg" class="img-fluid" alt="">
                     </a>
                 </div>
             </div>

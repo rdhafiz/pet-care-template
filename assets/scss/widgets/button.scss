@@ -1,11 +1,16 @@
 .btn-theme{
-  padding: 10px 30px;
+  padding: 10px 60px;
   display: inline-block;
   border-radius: 50px;
   border: none;
   outline: none;
-  background-color: $theme-secondary;
+  background-color: $theme-secondary !important;
   color: #ffffff;
   font-weight: bold;
   text-decoration: none;
+
+  &:hover{
+    background-color: darken($theme-secondary, 5) !important;
+  }
+
 }

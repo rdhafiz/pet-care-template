@@ -2,15 +2,6 @@
   width: 100%;
   height: auto;
   background-color: $theme-dark;
-  padding: 50px 0;
-
-  .h1{
-    font-size: 72px;
-
-    @media screen and (max-width: 600px) {
-      font-size: 35px;
-    }
-
-  }
+  padding: 80px 0;
 
 }

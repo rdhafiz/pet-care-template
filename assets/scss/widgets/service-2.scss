@@ -2,12 +2,42 @@
   width: 100%;
   height: auto;
   background-color: $theme;
+  position: relative;
+  z-index: 1;
+  padding: 80px 0;
 
-  .h1{
-    font-size: 72px;
+  .shape-1{
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    z-index: -1;
 
-    @media screen and (max-width: 600px) {
-      font-size: 35px;
+    @media screen and (max-width: 991px) {
+      display: none;
+    }
+
+  }
+
+  .shape-2{
+    position: absolute;
+    bottom: -170px;
+    right: -60px;
+    z-index: -1;
+
+    @media screen and (max-width: 991px) {
+      display: none;
+    }
+
+  }
+
+  .shape-3{
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    z-index: -1;
+
+    @media screen and (max-width: 991px) {
+      display: none;
     }
 
   }
