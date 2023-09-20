@@ -25,7 +25,7 @@
                     <a class="nav-link" href="javascript:void(0)">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#searchModal">
+                    <a class="nav-link me-0" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#searchModal">
                         <img src="assets/images/search.svg" class="search-icon img-fluid" alt="">
                     </a>
                 </li>

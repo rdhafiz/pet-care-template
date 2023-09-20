@@ -28,9 +28,6 @@
   width: 100px;
   height: auto;
 }
-.navbar .collapse .navbar-nav .nav-item:last-child .nav-link {
-  margin-right: 0;
-}
 .navbar .collapse .navbar-nav .nav-item .nav-link {
   text-decoration: none;
   display: inline-block;
