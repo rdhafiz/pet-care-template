@@ -1,8 +1,8 @@
 <section class="about-section">
     <div class="container">
         <div class="content">
-            <div class="heading text-white">
-                <div class="title">Title Here</div>
+            <div class="text-center text-white">
+                <div class="h1">Title Here</div>
                 <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Vivamus lacinia odio vitae vestibulum
                     vestibulum.
                 </div>
