@@ -2,7 +2,7 @@
     <div class="h1 text-white text-center pt-5 pb-5">
         Pricing
     </div>
-    <div class="container">
+    <div class="container overflow-hidden">
         <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3">
             <div class="p-2">
                 <div class="border text-center text-theme py-5 bg-white">

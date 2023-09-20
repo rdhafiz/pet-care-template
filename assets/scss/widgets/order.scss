@@ -2,13 +2,14 @@
   width: 100%;
   background-color: $theme-dark;
   position: relative;
+  z-index: 2;
 
   .shape-1{
     position: absolute;
     top: 50px;
     left: 40px;
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 991PX) {
       display: none;
     }
 
@@ -23,8 +24,12 @@
     top: 50px;
     right: 40px;
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 991PX) {
       display: none;
+    }
+
+    .dots-right{
+      transform: rotate(35deg);
     }
 
   }
@@ -34,8 +39,12 @@
     bottom: 50px;
     left: 40px;
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 991px) {
       display: none;
+    }
+
+    .triShap-left{
+      transform: rotate(35deg);
     }
 
   }
@@ -45,13 +54,14 @@
     bottom: 50px;
     right: 40px;
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 991px) {
       display: none;
     }
 
-    .triShap-left{
+    .dots-right{
       transform: rotate(35deg);
     }
+
   }
 
   .res-content{
