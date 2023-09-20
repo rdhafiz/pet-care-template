@@ -16,24 +16,18 @@
   .collapse{
     .navbar-nav{
       .nav-item{
+        &:last-child{
+          .nav-link{
+            margin-right: 0;
+          }
+        }
+
         .nav-link{
           text-decoration: none;
           display: inline-block;
-          padding: 10px 20px;
-          font-size: 15px;
-
-          @media screen and (max-width: 991px) {
-            padding: 10px 0;
-          }
-
+          margin-right: 20px;
         }
       }
     }
-  }
-}
-
-.about-section{
-  h1{
-    font-size: 72px;
   }
 }
