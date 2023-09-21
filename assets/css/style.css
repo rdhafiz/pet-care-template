@@ -116,10 +116,29 @@
 .about-section .about-items {
   margin-top: 40px;
 }
+.about-section .about-items .item .img {
+  width: 322px;
+  height: 322px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-section .about-items .item .img {
+    width: 310px;
+    height: 310px;
+  }
+}
+.about-section .about-items .item .img:hover img {
+  transition: all 0.4s ease;
+  transform: scale(1.1);
+}
 .about-section .about-items .item .img img {
   max-width: 100%;
-  border-radius: 50%;
-  height: 322px;
+  height: 100%;
+  width: 100%;
+  transform: scale(1);
+  transition: all 0.4s ease;
 }
 .about-section .about-items .item .title {
   font-size: 20px;
