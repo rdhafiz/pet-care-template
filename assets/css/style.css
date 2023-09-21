@@ -193,8 +193,8 @@
   background-color: rgba(237, 195, 21, 0.8);
   background-blend-mode: darken, luminosity;
   position: relative;
-  z-index: 2;
   padding: 80px 0;
+  z-index: 2;
 }
 .service-section .shape-position {
   position: absolute;
@@ -306,6 +306,7 @@
   transition: 0.5s all ease-in-out;
 }
 .order-section .res-content .image-effect:hover {
+  transition: 0.5s all ease-in-out;
   transform: scale(1.1);
 }
 
@@ -383,6 +384,7 @@
   transition: 0.5s all ease-in-out;
 }
 .order-2-section .res-content .image-effect:hover {
+  transition: 0.5s all ease-in-out;
   transform: scale(1.1);
 }
 
