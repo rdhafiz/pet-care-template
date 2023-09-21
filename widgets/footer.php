@@ -2,12 +2,12 @@
     <div class="container">
         <div class="row">
             <div class="p-2 col-12 col-sm-6 col-md-6">
-                <div class="h2 text-white mb-4">
+                <h2 class="h2 text-white mb-4">
                     Title Here
-                </div>
-                <div class="lead text-white mb-4 col-12 col-sm-12 col-md-8">
+                </h2>
+                <p class="lead text-white mb-4 col-12 col-sm-12 col-md-8">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio explicabo nemo officia repudiandae sint veniam.
-                </div>
+                </p>
                 <div class="d-flex justify-content-start align-items-center socials">
                     <a href="javascript:void(0)" class="me-3 each-social ig">
                         <img src="assets/images/Instagram.png" class="img-fluid" alt="Instagram">

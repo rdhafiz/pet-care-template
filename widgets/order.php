@@ -15,8 +15,8 @@
         <div class="row">
             <div class="col-12 col-sm-12 col-md-6 res-content">
                 <div class="text-start text-white">
-                    <div class="title">Title Here</div>
-                    <div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur at corporis delectus dolor magnam natus odit, quis ratione! Fugit, perferendis.</div>
+                    <h2 class="title">Title Here</h2>
+                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur at corporis delectus dolor magnam natus odit, quis ratione! Fugit, perferendis.</p>
                     <a href="javascript:void(0)" class="btn-theme">
                         Order Now
                     </a>

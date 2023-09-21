@@ -6,7 +6,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.
                 </div>
             </div>
-            <div class="sub-title fw-bold">Dr. jenny</div>
+            <h3 class="sub-title fw-bold">Dr. jenny</h3>
         </div>
         <div class="item">
             <div class="d-flex justify-content-center">
@@ -14,7 +14,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.
                 </div>
             </div>
-            <div class="sub-title fw-bold">Dr. John Smith</div>
+            <h3 class="sub-title fw-bold">Dr. John Smith</h3>
         </div>
         <div class="item">
             <div class="d-flex justify-content-center">
@@ -22,7 +22,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.
                 </div>
             </div>
-            <div class="sub-title fw-bold">Dr. Subroto</div>
+            <h3 class="sub-title fw-bold">Dr. Subroto</h3>
         </div>
     </div>
 </section>
