@@ -1,4 +1,4 @@
-<div class="service-section overflow-hidden" style="background-image: url('assets/images/background-2.png');">
+<div class="service-section" style="background-image: url('assets/images/background-2.png');">
     <div class="shape-position">
         <img src="assets/images/Shape-dots.png" class="img-fluid" alt="shapes-dots">
     </div>

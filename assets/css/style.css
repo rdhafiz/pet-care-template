@@ -108,6 +108,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 20px;
 }
 @media screen and (max-width: 591px) {
   .banner-section {
@@ -119,7 +120,7 @@
 
 .about-section {
   background-color: #739ee3;
-  padding: 80px 0;
+  padding: 80px 20px;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -193,8 +194,13 @@
   background-color: rgba(237, 195, 21, 0.8);
   background-blend-mode: darken, luminosity;
   position: relative;
-  padding: 80px 0;
+  padding: 80px 20px;
   z-index: 2;
+}
+@media screen and (max-width: 767px) {
+  .service-section {
+    overflow-x: hidden;
+  }
 }
 .service-section .shape-position {
   position: absolute;
@@ -235,7 +241,7 @@
   width: 100%;
   background-color: #5380c1;
   position: relative;
-  padding: 80px 0;
+  padding: 80px 20px;
   z-index: 2;
 }
 @media screen and (max-width: 575px) {
@@ -314,7 +320,7 @@
   width: 100%;
   background-color: #739ee3;
   position: relative;
-  padding: 80px 0;
+  padding: 80px 20px;
 }
 @media screen and (max-width: 575px) {
   .order-2-section {
@@ -392,7 +398,7 @@
   width: 100%;
   height: auto;
   background-color: #5380c1;
-  padding: 80px 0;
+  padding: 80px 20px;
 }
 .pricing .pricing-items {
   padding-top: 15px;
@@ -413,7 +419,7 @@
   background-color: #739ee3;
   position: relative;
   z-index: 1;
-  padding: 80px 0;
+  padding: 80px 20px;
 }
 .service-2-section .shape-1 {
   position: absolute;
@@ -451,6 +457,7 @@
 
 .testimonial-section {
   height: 100vh;
+  padding: 0 20px;
   background-size: cover;
   background-color: rgba(237, 195, 21, 0.8);
   background-blend-mode: darken, luminosity;
@@ -493,6 +500,7 @@
   width: 100%;
   height: auto;
   background-color: #343434;
+  padding: 20px;
 }
 .footer .nav-link {
   transition: 0.3s all ease-in-out;
