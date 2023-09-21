@@ -2,6 +2,9 @@
   background-color: rgba(83, 128, 193, 0.5);
   padding: 10px 20px;
   height: 100px;
+  @media screen and (max-width: 991px){
+    background-color: $theme;
+  }
 
   &.navbar-scrolled{
     transition: transform .6s;
