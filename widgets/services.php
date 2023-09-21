@@ -2,7 +2,7 @@
     <div class="shape-position">
         <img src="assets/images/Shape-dots.png" class="img-fluid" alt="shapes-dots">
     </div>
-        <div class="h1 text-center text-white">Title Here</div>
+        <div class="title text-center text-white">Title Here</div>
         <div class="text-center text-white desc">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aspernatur deleniti <br> expedita modi mollitia nam unde. Accusamus aspernatur minima molestiae?
         </div>
