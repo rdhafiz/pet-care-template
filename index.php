@@ -2,8 +2,13 @@
 <html lang="en">
 <head>
 
+    <!-- meta section start -->
     <?php include 'widgets/meta.php'; ?>
+    <!-- meta section end   -->
+
+    <!-- assets section start -->
     <?php include 'widgets/assets.php'; ?>
+    <!-- assets section end   -->
 
 </head>
 <body>
