@@ -6,9 +6,9 @@
         <div class="lead col-12 col-sm-8 col-md-6 text-center text-white desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus est nisi officiis qui. Tempore, veritatis!</div>
     </div>
     <div class="container overflow-hidden">
-        <div class="row justify-content-between">
+        <div class="row justify-content-between pricing-items">
             <div class="px-3 px-md-4 py-2 col-12 col-md-6 col-lg-4">
-                <div class="border text-center text-theme py-5 bg-white rounded-3">
+                <div class="border text-center text-theme py-5 bg-white rounded-3 item">
                     <div class="h1">Premium</div>
                     <img src="assets/images/pawprint-theme.png" class="img-fluid pb-5" alt="">
                     <div class="h1">$19.00</div>
@@ -19,7 +19,7 @@
                 </div>
             </div>
             <div class="px-3 px-md-4 py-2 col-12 col-md-6 col-lg-4">
-                <div class="border text-center text-theme py-5 bg-white rounded-3">
+                <div class="border text-center text-theme py-5 bg-white rounded-3 item">
                     <div class="h1">Premium</div>
                     <img src="assets/images/pawprint-theme.png" class="img-fluid pb-5" alt="">
                     <div class="h1">$19.00</div>
@@ -30,7 +30,7 @@
                 </div>
             </div>
             <div class="px-3 px-md-4 py-2 col-12 col-md-6 col-lg-4">
-                <div class="border text-center text-theme py-5 bg-white rounded-3">
+                <div class="border text-center text-theme py-5 bg-white rounded-3 item">
                     <div class="h1">Premium</div>
                     <img src="assets/images/pawprint-theme.png" class="img-fluid pb-5" alt="">
                     <div class="h1">$19.00</div>

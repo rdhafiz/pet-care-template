@@ -13,14 +13,28 @@
       height: auto;
     }
   }
-  .collapse{
+  .collapse,.collapsing{
     .navbar-nav{
       .nav-item{
-
         .nav-link{
           text-decoration: none;
-          display: inline-block;
-          margin-right: 20px;
+          display: block;
+          color: #ffffff;
+          padding: 10px 20px;
+          background-color: transparent;
+          transition: all .4s ease;
+          @media screen and (max-width: 991px) {
+            padding-left: 0;
+            color: #ffffff;
+            &:hover{
+              background-color: transparent!important;
+              color: rgba(#fff, .7)!important;
+            }
+          }
+          &:hover{
+            transition: all .4s ease;
+            background-color: rgba(#fff, .2);
+          }
         }
       }
     }

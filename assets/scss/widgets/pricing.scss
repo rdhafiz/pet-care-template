@@ -3,5 +3,16 @@
   height: auto;
   background-color: $theme-dark;
   padding: 80px 0;
-
+  .pricing-items{
+    padding-top: 15px;
+    .item{
+      cursor: pointer;
+      transform: scale(.9);
+      transition: all .4s ease;
+      &:hover{
+        transition: all .4s ease;
+        transform: scale(1);
+      }
+    }
+  }
 }

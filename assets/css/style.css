@@ -23,8 +23,10 @@
   color: #ffffff;
   font-weight: bold;
   text-decoration: none;
+  transition: all 0.4s ease;
 }
 .btn-theme:hover {
+  transition: all 0.4s ease;
   background-color: #d8b111 !important;
 }
 
@@ -42,10 +44,27 @@
   width: 100px;
   height: auto;
 }
-.navbar .collapse .navbar-nav .nav-item .nav-link {
+.navbar .collapse .navbar-nav .nav-item .nav-link, .navbar .collapsing .navbar-nav .nav-item .nav-link {
   text-decoration: none;
-  display: inline-block;
-  margin-right: 20px;
+  display: block;
+  color: #ffffff;
+  padding: 10px 20px;
+  background-color: transparent;
+  transition: all 0.4s ease;
+}
+@media screen and (max-width: 991px) {
+  .navbar .collapse .navbar-nav .nav-item .nav-link, .navbar .collapsing .navbar-nav .nav-item .nav-link {
+    padding-left: 0;
+    color: #ffffff;
+  }
+  .navbar .collapse .navbar-nav .nav-item .nav-link:hover, .navbar .collapsing .navbar-nav .nav-item .nav-link:hover {
+    background-color: transparent !important;
+    color: rgba(255, 255, 255, 0.7) !important;
+  }
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover, .navbar .collapsing .navbar-nav .nav-item .nav-link:hover {
+  transition: all 0.4s ease;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .banner-section {
@@ -100,6 +119,7 @@
 .about-section .about-items .item .img img {
   max-width: 100%;
   border-radius: 50%;
+  height: 322px;
 }
 .about-section .about-items .item .title {
   font-size: 20px;
@@ -305,6 +325,18 @@
   height: auto;
   background-color: #5380c1;
   padding: 80px 0;
+}
+.pricing .pricing-items {
+  padding-top: 15px;
+}
+.pricing .pricing-items .item {
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: all 0.4s ease;
+}
+.pricing .pricing-items .item:hover {
+  transition: all 0.4s ease;
+  transform: scale(1);
 }
 
 .service-2-section {
