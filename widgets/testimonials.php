@@ -1,4 +1,4 @@
-<section class="testimonial-section d-flex align-items-center justify-content-center" style="background-image: url('./assets/images/background-3.png')">
+<div class="testimonial-section d-flex align-items-center justify-content-center" style="background-image: url('./assets/images/background-3.png')">
     <div class="content owl-carousel owl-theme">
         <div class="item">
             <div class="d-flex justify-content-center">
@@ -25,4 +25,4 @@
             <h3 class="sub-title fw-bold">Dr. Subroto</h3>
         </div>
     </div>
-</section>
+</div>

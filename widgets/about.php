@@ -1,4 +1,4 @@
-<section class="about-section">
+<div class="about-section">
     <div class="container">
         <div class="content">
             <div class="text-center text-white">
@@ -49,4 +49,4 @@
     <div class="arrow-shape">
         <img src="./assets/images/arrow.png" alt="triangle-shape">
     </div>
-</section>
+</div>
