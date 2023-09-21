@@ -2,24 +2,24 @@
     <div class="container">
         <div class="row">
             <div class="p-2 col-12 col-sm-6 col-md-6">
-                <div class="h2 text-white mb-4">
+                <h2 class="h2 text-white mb-4">
                     Title Here
-                </div>
-                <div class="lead text-white mb-4 col-12 col-sm-12 col-md-8">
+                </h2>
+                <p class="lead text-white mb-4 col-12 col-sm-12 col-md-8">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio explicabo nemo officia repudiandae sint veniam.
-                </div>
-                <div class="d-flex justify-content-start align-items-center">
-                    <a href="javascript:void(0)" class="me-3">
-                        <img src="assets/images/svg/instagram.svg" class="img-fluid" alt="">
+                </p>
+                <div class="d-flex justify-content-start align-items-center socials">
+                    <a href="javascript:void(0)" class="me-3 each-social ig">
+                        <img src="assets/images/Instagram.png" class="img-fluid" alt="Instagram">
                     </a>
-                    <a href="javascript:void(0)" class="me-3">
-                        <img src="assets/images/svg/facebook.svg" class="img-fluid" alt="">
+                    <a href="javascript:void(0)" class="me-3 each-social fb">
+                        <img src="assets/images/Facebook.png" class="img-fluid" alt="Facebook">
                     </a>
-                    <a href="javascript:void(0)" class="me-3">
-                        <img src="assets/images/svg/twitter.svg" class="img-fluid" alt="">
+                    <a href="javascript:void(0)" class="me-3 each-social tw">
+                        <img src="assets/images/Twitter.png" class="img-fluid" alt="Twitter">
                     </a>
-                    <a href="javascript:void(0)" class="me-3">
-                        <img src="assets/images/svg/whatsapp.svg" class="img-fluid" alt="">
+                    <a href="javascript:void(0)" class="me-3 each-social wt">
+                        <img src="assets/images/WhatsApp.png" class="img-fluid" alt="Whatsapp">
                     </a>
                 </div>
             </div>

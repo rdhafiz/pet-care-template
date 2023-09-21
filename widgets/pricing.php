@@ -7,35 +7,35 @@
     </div>
     <div class="container overflow-hidden">
         <div class="row justify-content-between pricing-items">
-            <div class="px-3 px-md-4 py-2 col-12 col-md-6 col-lg-4">
-                <div class="border text-center text-theme py-5 px-3 bg-white rounded-3 item">
-                    <div class="h1">Premium</div>
-                    <img src="assets/images/pawprint-theme.png" class="img-fluid pb-5" alt="">
+            <div class="px-3 px-md-4 py-2 col-12 col-md-12 col-xl-4 col-lg-6">
+                <div class="border text-center py-5 px-3 bg-white rounded-3 item text-light-theme">
+                    <div class="h1 mb-5">Premium</div>
+                    <img src="assets/images/footprint-theme.png" class="img-fluid pb-5" alt="footprint">
                     <div class="h1">$19.00</div>
-                    <div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, voluptate.</div>
-                    <div class="pt-4">
+                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <div class="pt-3">
                         <a href="javascript:void(0)" class="btn-theme w-100">Order Now</a>
                     </div>
                 </div>
             </div>
-            <div class="px-3 px-md-4 py-2 col-12 col-md-6 col-lg-4">
-                <div class="border text-center text-theme py-5 px-3 bg-white rounded-3 item">
-                    <div class="h1">Premium</div>
-                    <img src="assets/images/pawprint-theme.png" class="img-fluid pb-5" alt="">
+            <div class="px-3 px-md-4 py-2 col-12 col-md-12 col-xl-4 col-lg-6">
+                <div class="border text-center py-5 px-3 bg-white rounded-3 item text-light-theme">
+                    <div class="h1 mb-5">Premium</div>
+                    <img src="assets/images/footprint-theme.png" class="img-fluid pb-5" alt="footprint">
                     <div class="h1">$19.00</div>
-                    <div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, magnam.</div>
-                    <div class="pt-4">
+                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <div class="pt-3">
                         <a href="javascript:void(0)" class="btn-theme w-100">Order Now</a>
                     </div>
                 </div>
             </div>
-            <div class="px-3 px-md-4 py-2 col-12 col-md-6 col-lg-4">
-                <div class="border text-center text-theme py-5 px-3 bg-white rounded-3 item">
-                    <div class="h1">Premium</div>
-                    <img src="assets/images/pawprint-theme.png" class="img-fluid pb-5" alt="">
+            <div class="px-3 px-md-4 py-2 col-12 col-md-12 col-xl-4 col-lg-6">
+                <div class="border text-center py-5 px-3 bg-white rounded-3 item text-light-theme">
+                    <div class="h1 mb-5">Premium</div>
+                    <img src="assets/images/footprint-theme.png" class="img-fluid pb-5" alt="footprint">
                     <div class="h1">$19.00</div>
-                    <div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, vitae?</div>
-                    <div class="pt-4">
+                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <div class="pt-3">
                         <a href="javascript:void(0)" class="btn-theme w-100">Order Now</a>
                     </div>
                 </div>

@@ -2,6 +2,17 @@
   background-color: rgba(83, 128, 193, 0.5);
   padding: 10px 20px;
   height: 100px;
+  @media screen and (max-width: 991px){
+    background-color: $theme;
+  }
+
+  &.navbar-scrolled{
+    transition: transform .6s;
+    top: -100px;
+    transform: translateY(100px);
+    background-color: $theme;
+    box-shadow: 0 0 6px 5px rgba(0,0,0,.2);
+  }
 
   @media screen and (max-width: 991px) {
     height: auto;
@@ -34,6 +45,10 @@
           &:hover{
             transition: all .4s ease;
             background-color: rgba(#fff, .2);
+          }
+          .search-icon{
+            width: 20px;
+            height: 20px;
           }
         }
       }
