@@ -8,6 +8,7 @@
   color: #ffffff;
   font-weight: bold;
   text-decoration: none;
+  transition: 0.3s all ease-in-out;
 
   &:hover{
     background-color: darken($theme-secondary, 5) !important;

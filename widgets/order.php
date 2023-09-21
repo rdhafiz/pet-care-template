@@ -15,7 +15,7 @@
         <div class="row">
             <div class="col-12 col-sm-12 col-md-6 res-content">
                 <div class="text-start text-white">
-                    <div class="h1">Title Here</div>
+                    <div class="title">Title Here</div>
                     <div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur at corporis delectus dolor magnam natus odit, quis ratione! Fugit, perferendis.</div>
                     <a href="javascript:void(0)" class="btn-theme">
                         Order Now
@@ -23,7 +23,9 @@
                 </div>
             </div>
             <div class="col-12 col-sm-12 col-md-6 res-content">
-                <img src="assets/images/order-2-image.png" class="img-fluid rounded-circle col-9" alt="order-2-image">
+                <div class="rounded-circle col-9 overflow-hidden">
+                    <img src="assets/images/order-2-image.png" class="img-fluid image-effect" alt="order-2-image">
+                </div>
             </div>
         </div>
     </div>
