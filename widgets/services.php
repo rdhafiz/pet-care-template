@@ -11,10 +11,10 @@
                 <div class="p-3 col-md-6 col-lg-4 d-flex justify-content-center">
                     <div class="box-content">
                         <div class="text-white">
-                            <div class="h1">
+                            <div class="h1 fw-bold">
                                 3.5K
                             </div>
-                            <div class="desc">
+                            <div>
                                 Pet Care
                             </div>
                         </div>
@@ -23,10 +23,10 @@
                 <div class="p-3 col-md-6 col-lg-4 d-flex justify-content-center">
                     <div class="box-content">
                         <div class="text-white">
-                            <div class="h1">
+                            <div class="h1 fw-bold">
                                 900
                             </div>
-                            <div class="desc">
+                            <div>
                                 Outlet
                             </div>
                         </div>
@@ -35,10 +35,10 @@
                 <div class="p-3 col-md-6 col-lg-4 d-flex justify-content-center">
                     <div class="box-content">
                         <div class="text-white">
-                            <div class="h1">
+                            <div class="h1 fw-bold">
                                 2K +
                             </div>
-                            <div class="desc">
+                            <div>
                                 Pet Helping
                             </div>
                         </div>

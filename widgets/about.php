@@ -14,7 +14,7 @@
                             <div class="img">
                                 <img src="./assets/images/about-1.png" class="img-fluid" alt="">
                             </div>
-                            <div class="sub-title">Pet Care</div>
+                            <div class="sub-title fw-bold">Pet Care</div>
                             <div class="sub-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
                         </div>
                     </div>
@@ -23,7 +23,7 @@
                             <div class="img">
                                 <img src="./assets/images/about-2.png" class="img-fluid" alt="">
                             </div>
-                            <div class="sub-title">Pet Shop</div>
+                            <div class="sub-title fw-bold">Pet Shop</div>
                             <div class="sub-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
                         </div>
                     </div>
@@ -32,7 +32,7 @@
                             <div class="img">
                                 <img src="./assets/images/about-3.png" class="img-fluid" alt="">
                             </div>
-                            <div class="sub-title">Pet Help</div>
+                            <div class="sub-title fw-bold">Pet Help</div>
                             <div class="sub-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
                         </div>
                     </div>
