@@ -2,15 +2,44 @@
   color: #5380c1;
 }
 
-.h1 {
-  font-size: 30px;
-  font-weight: 600;
+.title {
+  font-size: 72px;
+  font-weight: 700;
   margin-bottom: 20px;
+}
+@media screen and (max-width: 991px) {
+  .title {
+    font-size: 45px;
+  }
+}
+
+.sub-title {
+  margin: 20px 0;
+  font-size: 40px;
+}
+@media screen and (max-width: 991px) {
+  .sub-title {
+    font-size: 25px;
+  }
 }
 
 .desc {
-  font-size: 16px;
+  font-size: 25px;
   margin-bottom: 20px;
+}
+@media screen and (max-width: 991px) {
+  .desc {
+    font-size: 20px;
+  }
+}
+
+.sub-desc {
+  font-size: 20px;
+}
+@media screen and (max-width: 991px) {
+  .sub-desc {
+    font-size: 16px;
+  }
 }
 
 .btn-theme {
@@ -23,7 +52,11 @@
   color: #ffffff;
   font-weight: bold;
   text-decoration: none;
+<<<<<<< HEAD
   transition: all 0.4s ease;
+=======
+  transition: 0.3s all ease-in-out;
+>>>>>>> 3ecfa5f (update title and description)
 }
 .btn-theme:hover {
   transition: all 0.4s ease;
@@ -75,6 +108,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 20px;
 }
 @media screen and (max-width: 591px) {
   .banner-section {
@@ -86,7 +120,7 @@
 
 .about-section {
   background-color: #739ee3;
-  padding: 80px 0;
+  padding: 80px 20px;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -160,8 +194,13 @@
   background-color: rgba(237, 195, 21, 0.8);
   background-blend-mode: darken, luminosity;
   position: relative;
+  padding: 80px 20px;
   z-index: 2;
-  padding: 80px 0;
+}
+@media screen and (max-width: 767px) {
+  .service-section {
+    overflow-x: hidden;
+  }
 }
 .service-section .shape-position {
   position: absolute;
@@ -202,7 +241,7 @@
   width: 100%;
   background-color: #5380c1;
   position: relative;
-  padding: 80px 0;
+  padding: 80px 20px;
   z-index: 2;
 }
 @media screen and (max-width: 575px) {
@@ -268,12 +307,20 @@
   align-items: center;
   padding: 30px 0;
 }
+.order-section .res-content .image-effect {
+  transform: scale(1);
+  transition: 0.5s all ease-in-out;
+}
+.order-section .res-content .image-effect:hover {
+  transition: 0.5s all ease-in-out;
+  transform: scale(1.1);
+}
 
 .order-2-section {
   width: 100%;
   background-color: #739ee3;
   position: relative;
-  padding: 80px 0;
+  padding: 80px 20px;
 }
 @media screen and (max-width: 575px) {
   .order-2-section {
@@ -338,12 +385,20 @@
   align-items: center;
   padding: 30px 0;
 }
+.order-2-section .res-content .image-effect {
+  transform: scale(1);
+  transition: 0.5s all ease-in-out;
+}
+.order-2-section .res-content .image-effect:hover {
+  transition: 0.5s all ease-in-out;
+  transform: scale(1.1);
+}
 
 .pricing {
   width: 100%;
   height: auto;
   background-color: #5380c1;
-  padding: 80px 0;
+  padding: 80px 20px;
 }
 .pricing .pricing-items {
   padding-top: 15px;
@@ -364,7 +419,7 @@
   background-color: #739ee3;
   position: relative;
   z-index: 1;
-  padding: 80px 0;
+  padding: 80px 20px;
 }
 .service-2-section .shape-1 {
   position: absolute;
@@ -402,6 +457,7 @@
 
 .testimonial-section {
   height: 100vh;
+  padding: 0 20px;
   background-size: cover;
   background-color: rgba(237, 195, 21, 0.8);
   background-blend-mode: darken, luminosity;
@@ -444,6 +500,15 @@
   width: 100%;
   height: auto;
   background-color: #343434;
+  padding: 20px;
+}
+.footer .nav-link {
+  transition: 0.3s all ease-in-out;
+}
+.footer .nav-link:hover {
+  color: #739ee3 !important;
+  transition: 0.3s all ease-in-out;
+  padding-left: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */

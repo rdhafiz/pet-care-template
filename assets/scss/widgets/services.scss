@@ -3,8 +3,12 @@
   background-color: rgba($theme-secondary, .8);
   background-blend-mode: darken, luminosity;
   position: relative;
+  padding: 80px 20px;
   z-index: 2;
-  padding: 80px 0;
+
+  @media screen and (max-width: 767px) {
+    overflow-x: hidden;
+  }
 
   .shape-position{
     position: absolute;

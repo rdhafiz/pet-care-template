@@ -2,7 +2,7 @@
     <div class="container">
         <div class="content">
             <div class="text-center text-white">
-                <div class="h1">Title Here</div>
+                <div class="title">Title Here</div>
                 <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Vivamus lacinia odio vitae vestibulum
                     vestibulum.
                 </div>
@@ -12,28 +12,28 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="item text-center text-white mb-4 mb-lg-0">
                             <div class="img">
-                                <img src="./assets/images/about-1.png" alt="">
+                                <img src="./assets/images/about-1.png" class="img-fluid" alt="">
                             </div>
-                            <div class="title">Pet Care</div>
-                            <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                            <div class="sub-title">Pet Care</div>
+                            <div class="sub-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="item text-center text-white mb-4 mb-lg-0">
                             <div class="img">
-                                <img src="./assets/images/about-2.png" alt="">
+                                <img src="./assets/images/about-2.png" class="img-fluid" alt="">
                             </div>
-                            <div class="title">Pet Shop</div>
-                            <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                            <div class="sub-title">Pet Shop</div>
+                            <div class="sub-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="item text-center text-white mb-4 mb-lg-0">
                             <div class="img">
-                                <img src="./assets/images/about-3.png" alt="">
+                                <img src="./assets/images/about-3.png" class="img-fluid" alt="">
                             </div>
-                            <div class="title">Pet Help</div>
-                            <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                            <div class="sub-title">Pet Help</div>
+                            <div class="sub-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
                         </div>
                     </div>
                 </div>

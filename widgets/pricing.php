@@ -1,5 +1,5 @@
 <div class="pricing">
-    <div class="h1 text-white text-center">
+    <div class="title text-white text-center">
         Pricing
     </div>
     <div class="d-flex justify-content-center align-items-center pb-3">
